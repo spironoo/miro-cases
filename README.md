@@ -6,7 +6,7 @@
 
 ## Need Help?
 
-Contact me on Discord @spiro.ooo or in the SlimeVR Marketplace. Search for Miro Trackers.
+Contact me on Discord @spiro.ooo or search for Miro trackers in the SlimeVR Discord.
 
 ## About
 
