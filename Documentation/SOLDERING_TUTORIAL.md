@@ -222,13 +222,13 @@ Then, use a tool of your choice to push the pin into place, connecting to the IN
 
 ## Part 6: Preparing the Battery
 
-### Step 17: Battery Selection
+### Battery Selection
 
 For the Miro case, use a small LiPo battery. The example shows a 120mAh 3.7V battery (401230 size).
 
 ![Battery Overview](../Images/20251211_071044.jpg)
 
-### Step 18: Connect Battery Wires
+### Connect Battery Wires
 
 Solder the battery wires to the appropriate pads on the SuperMini:
 
@@ -280,7 +280,7 @@ Ensure that:
 - No shorts between components
 
 
-### Step 24: Close the Case
+### Close the Case
 
 Snap the lid onto the case. That's it!
 
@@ -294,11 +294,11 @@ Snap the lid onto the case. That's it!
 
 ## Next Steps
 
-Your Smol Stacked SlimeVR tracker is now assembled! Next steps:
+Your Smol Stacked SlimeVR tracker is now assembled! Next s:
 
-3. **Pair with receiver** — [Connect your tracker to your SlimeVR receiver/dongle](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html)
-4. **Calibrate** — [Follow the SlimeVR calibration process](https://docs.slimevr.dev/quick-setup.html)
-5. **Attach straps** — Thread straps through the case slots and wear!
+1. **Pair with receiver** — [Connect your tracker to your SlimeVR receiver/dongle](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html)
+2. **Calibrate** — [Follow the SlimeVR calibration process](https://docs.slimevr.dev/quick-setup.html)
+3. **Attach straps** — Thread straps through the case slots and wear!
 
 ---
 
