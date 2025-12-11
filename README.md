@@ -4,6 +4,10 @@
 
 3D printable cases designed for **Smol Stacked SlimeVR** trackers.
 
+## Need Help?
+
+Contact me on Discord @spiro.ooo or in the SlimeVR Marketplace. Search for Miro Trackers.
+
 ## About
 
 Miro Cases are custom enclosures for the Smol Slime (nRF) tracker configuration in a stacked layout. These cases are designed to house the compact nRF52-based SlimeVR trackers that use Enhanced ShockBurst (ESB) protocol for highly power-efficient full-body tracking in VR.
