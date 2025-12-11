@@ -1,6 +1,6 @@
 # Smol Stacked SlimeVR Soldering Tutorial
 
-## **[🔗 Visit spiro.ooo](https://spiro.ooo/)**
+## **[🔗 Want to buy these instead? Visit spiro.ooo](https://spiro.ooo/)**
 
 This guide walks you through preparing your SuperMini NRF52840 board for use in a Smol Stacked SlimeVR tracker. We'll cover board preparation, soldering the reset button, and entering DFU mode to flash firmware.
 
