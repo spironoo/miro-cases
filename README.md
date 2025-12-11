@@ -7,6 +7,8 @@
 
 3D printable cases designed for **Smol Stacked SlimeVR** trackers.
 
+### For an in-depth guide on how to build your own Miro trackers, see the tutorial [Here](./Documentation/SOLDERING_TUTORIAL.md)
+
 ## Need Help?
 
 Contact me on Discord @spiro.ooo or search for Miro trackers in the SlimeVR Discord.
