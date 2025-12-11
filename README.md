@@ -38,7 +38,7 @@ miro-cases/
 |---------|-------|
 | Layer Height | 0.2mm |
 | Infill | 15-20% |
-| Supports | Automatic is OK, but recommend manual painting |
+| Supports | Automatic is OK, but recommend manual supports |
 | Material | PLA, PETG |
 
 ### Tips
