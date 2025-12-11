@@ -60,7 +60,7 @@ These cases are designed for Smol Stacked SlimeVR builds, which typically includ
 - **IMU**: Various supported sensors (Primarily ICM-45686)
 - **Battery**: Small LiPo cells appropriate for the case dimensions (401230)
 
-## Assembly
+## 🔧 Assembly 🔧
 
 1. Print all required case components
 2. Assemble your Smol Stacked tracker electronics
@@ -77,7 +77,7 @@ These cases are designed for Smol Stacked SlimeVR builds, which typically includ
 - [SlimeVR Discord](https://discord.gg/SlimeVR)
 - [Community-built Cases](https://docs.slimevr.dev/diy/cases.html)
 
-## Contributing
+## 🧡 Contributing 🧡
 
 Contributions are welcome! If you have improvements or variations:
 
