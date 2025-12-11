@@ -7,7 +7,7 @@
 
 3D printable cases designed for **Smol Stacked SlimeVR** trackers.
 
-# [For an in-depth guide on how to build your own Miro trackers, follow the tutorial here.](./Documentation/SOLDERING_TUTORIAL.md)
+
 
 ## Need Help?
 
@@ -56,10 +56,9 @@ miro-cases/
 
 These cases are designed for Smol Stacked SlimeVR builds, which typically include:
 
-- **MCU**: SuperMini NRF52840 or similar nRF52/nRF54L series boards
-- **IMU**: Various supported sensors (ICM-45686, BMI270, etc.)
-- **Battery**: Small LiPo cells appropriate for the case dimensions
-- **Antenna**: Optional external wire antenna for improved signal
+- **MCU**: SuperMini NRF52840
+- **IMU**: Various supported sensors (Primarily ICM-45686)
+- **Battery**: Small LiPo cells appropriate for the case dimensions (401230)
 
 ## Assembly
 
@@ -68,6 +67,8 @@ These cases are designed for Smol Stacked SlimeVR builds, which typically includ
 3. Install the electronics into the case
 4. Secure with the lid/cover
 5. Attach straps as needed
+
+[For an in-depth guide on how to build your own Miro trackers, follow the tutorial here.](./Documentation/SOLDERING_TUTORIAL.md)
 
 ## Related Resources
 
