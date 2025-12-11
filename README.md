@@ -3,6 +3,7 @@
 ## **[Available now at https://spiro.ooo/](https://spiro.ooo/)**
 
 ![Photo of Miro tracker on ankle](./Images/Miro_Photo.jpg)
+![Spread of 10 Purple Miro trackers](./Images/spread_purple.png)
 
 3D printable cases designed for **Smol Stacked SlimeVR** trackers.
 
