@@ -84,6 +84,13 @@ Contributions are welcome! If you have improvements or variations:
 
 ## License
 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="30" height="30">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="30" height="30">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" width="30" height="30">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" width="30" height="30">
+</a>
+Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
