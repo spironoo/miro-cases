@@ -26,15 +26,6 @@ Smol Slimes (also known as nRF Trackers) are a newer generation of SlimeVR track
 - **Stacked configuration** - components are layered vertically to minimize footprint
 - **Requires a receiver/dongle** - communicates with SlimeVR Server via a heavily modified ESB protocol
 
-## Contents
-
-```
-miro-cases/
-├── STL/           # 3D printable STL files
-├── LICENSE        # License information
-└── README.md      # This file
-```
-
 ## Printing Guidelines
 
 ### Recommended Settings
