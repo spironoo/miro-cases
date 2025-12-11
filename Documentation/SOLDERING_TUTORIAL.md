@@ -41,7 +41,7 @@ Before you begin, make sure you have:
 
 The SuperMini NRF52840 is a compact development board featuring Nordic's nRF52840 SoC. It's perfect for Smol SlimeVR builds due to its small size and power efficiency.
 
-![Board Overview](../images/20251211_063059.jpg)
+![Board Overview](..//Images/20251211_063059.jpg)
 
 **Key components to identify:**
 
@@ -52,7 +52,7 @@ The SuperMini NRF52840 is a compact development board featuring Nordic's nRF5284
 - **Pin headers** — Gold-plated holes along both edges (labeled 006, 017, 020, etc.)
 - **Reset button pads** — Located near the USB port
 
-![Board Alternate Angle](../images/20251211_063111.jpg)
+![Board Alternate Angle](..//Images/20251211_063111.jpg)
 
 ---
 
@@ -62,15 +62,15 @@ The SuperMini NRF52840 is a compact development board featuring Nordic's nRF5284
 
 Identify the reset button solder pads on your SuperMini board. These are located near the USB-C connector.
 
-![Button Pads Location](../images/20251211_063324.jpg)
+![Button Pads Location](..//Images/20251211_063324.jpg)
 
 ### Step 2: Prepare Your Button
 
 Using fine-tip tweezers, carefully pick up the SMD reset button. These are small tactile switches that allow you to reset the board and enter DFU (Device Firmware Update) mode.
 
-![Holding Button with Tweezers](../images/20251211_063325.jpg)
+![Holding Button with Tweezers](..//Images/20251211_063325.jpg)
 
-![Button Close-up](../images/20251211_063327.jpg)
+![Button Close-up](..//Images/20251211_063327.jpg)
 
 **Tip:** Keep the button oriented correctly. The button legs should align with the pads on the PCB.
 
@@ -78,13 +78,13 @@ Using fine-tip tweezers, carefully pick up the SMD reset button. These are small
 
 Carefully place the reset button on the designated pads. Take your time to ensure proper alignment before soldering.
 
-![Button Positioning 1](../images/20251211_063356.jpg)
+![Button Positioning 1](..//Images/20251211_063356.jpg)
 
-![Button Positioning 2](../images/20251211_063358.jpg)
+![Button Positioning 2](..//Images/20251211_063358.jpg)
 
-![Button Positioning 3](../images/20251211_063400.jpg)
+![Button Positioning 3](..//Images/20251211_063400.jpg)
 
-![Button Positioning 4](../images/20251211_063406.jpg)
+![Button Positioning 4](..//Images/20251211_063406.jpg)
 
 ---
 
@@ -94,7 +94,7 @@ Carefully place the reset button on the designated pads. Take your time to ensur
 
 With the button positioned correctly, apply a small amount of solder to one pad first. This "tacks" the button in place and allows you to adjust alignment if needed.
 
-![Tacking First Pad](../images/20251211_063424.jpg)
+![Tacking First Pad](..//Images/20251211_063424.jpg)
 
 **Soldering Tips:**
 
@@ -107,9 +107,9 @@ With the button positioned correctly, apply a small amount of solder to one pad 
 
 Once aligned, solder the remaining pads to secure the button completely.
 
-![Completed Button Solder 1](../images/20251211_063507.jpg)
+![Completed Button Solder 1](..//Images/20251211_063507.jpg)
 
-![Completed Button Solder 2](../images/20251211_063513.jpg)
+![Completed Button Solder 2](..//Images/20251211_063513.jpg)
 
 ### Step 6: Inspect Your Work
 
@@ -119,13 +119,13 @@ Visually inspect the solder joints. Good joints should be:
 - Fully covering the pad and button leg
 - Free of bridges to adjacent components
 
-![Final Inspection 1](../images/20251211_063532.jpg)
+![Final Inspection 1](..//Images/20251211_063532.jpg)
 
-![Final Inspection 2](../images/20251211_063535.jpg)
+![Final Inspection 2](..//Images/20251211_063535.jpg)
 
-![Final Inspection 3](../images/20251211_063537.jpg)
+![Final Inspection 3](..//Images/20251211_063537.jpg)
 
-![Final Inspection 4](../images/20251211_063546.jpg)
+![Final Inspection 4](..//Images/20251211_063546.jpg)
 
 ---
 
@@ -135,7 +135,7 @@ Visually inspect the solder joints. Good joints should be:
 
 Connect your SuperMini to your computer using a USB-C data cable.
 
-![USB Connected](../images/20251211_063958.jpg)
+![USB Connected](..//Images/20251211_063958.jpg)
 
 ### Step 8: Enter DFU Mode
 
@@ -145,14 +145,14 @@ To enter DFU (bootloader) mode for flashing firmware:
 2. **Use tweezers or a conductive tool** to short the RST pin to GND
 3. **Double-tap** the reset button (or short RST to GND twice quickly)
 
-![Shorting RST Pin](../images/20251211_064000.jpg)
+![Shorting RST Pin](..//Images/20251211_064000.jpg)
 
 When successful, you'll see:
 
 - The **red LED will fade or flash solid**
 - The board will appear as a **USB mass storage device** (like "NICENANO" or "Feather")
 
-![DFU Mode Active - LEDs Lit](../images/20251211_064003.jpg)
+![DFU Mode Active - LEDs Lit](..//Images/20251211_064003.jpg)
 
 **Note:** Sometimes it takes 2-5 attempts to enter DFU mode. Be patient and try different timing on the double-tap.
 
@@ -164,7 +164,7 @@ When the board is in DFU mode:
 - The LED behavior will change (typically solid or slowly pulsing)
 - You're now ready to flash the bootloader and firmware!
 
-![DFU Verification](../images/20251211_064025.jpg)
+![DFU Verification](..//Images/20251211_064025.jpg)
 
 ---
 
@@ -202,37 +202,37 @@ You'll need:
 - Header pins (7-pin strip)
 - Soldering jig (optional but recommended)
 
-![IMU Jig with Pins](../images/20251211_064826.jpg)
+![IMU Jig with Pins](..//Images/20251211_064826.jpg)
 
-![Soldering Jig Empty](../images/20251211_064836.jpg)
+![Soldering Jig Empty](..//Images/20251211_064836.jpg)
 
 ### Step 11: Insert Header Pins into Jig
 
 The soldering jig holds the header pins at the correct height and alignment while you solder. Insert the pins into the jig with the short ends facing up.
 
-![Pins in Jig - Side View](../images/20251211_065011.jpg)
+![Pins in Jig - Side View](..//Images/20251211_065011.jpg)
 
 ### Step 12: Place IMU on Pins
 
 Carefully place the IMU board onto the header pins, ensuring all pins go through the corresponding holes.
 
-![IMU Placed on Pins](../images/20251211_065200.jpg)
+![IMU Placed on Pins](..//Images/20251211_065200.jpg)
 
-![IMU in Jig - Alternate Angle](../images/20251211_065316.jpg)
+![IMU in Jig - Alternate Angle](..//Images/20251211_065316.jpg)
 
 ### Step 13: Solder IMU Pins
 
 Solder each pin to the IMU board. Work carefully to avoid bridges between adjacent pins.
 
-![IMU Soldering Complete - Top View](../images/20251211_065441.jpg)
+![IMU Soldering Complete - Top View](..//Images/20251211_065441.jpg)
 
-![IMU Soldering Complete - Alternate View](../images/20251211_065454.jpg)
+![IMU Soldering Complete - Alternate View](..//Images/20251211_065454.jpg)
 
 ### Step 14: Remove from Jig
 
 Once all pins are soldered, carefully remove the IMU from the jig.
 
-![Completed IMU with Pins](../images/20251211_065601.jpg)
+![Completed IMU with Pins](..//Images/20251211_065601.jpg)
 
 ---
 
@@ -242,13 +242,13 @@ Once all pins are soldered, carefully remove the IMU from the jig.
 
 Position the IMU above the SuperMini board. The pins from the IMU will go through specific holes on the SuperMini to create the "stacked" configuration.
 
-![Stacking Preparation](../images/20251211_065658.jpg)
+![Stacking Preparation](..//Images/20251211_065658.jpg)
 
 ### Step 16: Solder Stack Connection
 
 Insert the IMU pins through the SuperMini and solder from the bottom side.
 
-![Stack Soldering in Progress](../images/20251211_065811.jpg)
+![Stack Soldering in Progress](..//Images/20251211_065811.jpg)
 
 **Important Pin Connections:**
 
@@ -266,7 +266,7 @@ Insert the IMU pins through the SuperMini and solder from the bottom side.
 
 For the Miro case, use a small LiPo battery. The example shows a 120mAh 3.7V battery (401230 size).
 
-![Battery Overview](../images/20251211_071044.jpg)
+![Battery Overview](..//Images/20251211_071044.jpg)
 
 **Battery Specifications:**
 
@@ -281,9 +281,9 @@ Solder the battery wires to the appropriate pads on the SuperMini:
 - **Red wire (positive)** → B+ pad
 - **Black wire (negative)** → GND pad
 
-![Stacked Assembly with Battery Wires](../images/20251211_070736.jpg)
+![Stacked Assembly with Battery Wires](..//Images/20251211_070736.jpg)
 
-![Assembly Alternate View](../images/20251211_070808.jpg)
+![Assembly Alternate View](..//Images/20251211_070808.jpg)
 
 **⚠️ Warning:** Double-check polarity before connecting! Reversed polarity can permanently damage your board.
 
@@ -300,7 +300,7 @@ The Miro case features:
 - USB-C port cutout
 - Compact design for comfortable wear
 
-![Miro Case Overview](../images/20251211_073658.jpg)
+![Miro Case Overview](..//Images/20251211_073658.jpg)
 
 ### Step 20: Insert the Stack
 
@@ -310,17 +310,17 @@ Carefully place the stacked assembly (SuperMini + IMU) into the case, ensuring:
 - Reset button aligns with the access hole
 - No wires are pinched
 
-![Assembly in Case - Top View](../images/20251211_073831.jpg)
+![Assembly in Case - Top View](..//Images/20251211_073831.jpg)
 
-![Assembly in Case - With Battery](../images/20251211_073905.jpg)
+![Assembly in Case - With Battery](..//Images/20251211_073905.jpg)
 
 ### Step 21: Position the Battery
 
 Tuck the battery into the case alongside or on top of the electronics stack.
 
-![Battery Positioned in Case](../images/20251211_073513.jpg)
+![Battery Positioned in Case](..//Images/20251211_073513.jpg)
 
-![Final Assembly - Side View](../images/20251211_073921.jpg)
+![Final Assembly - Side View](..//Images/20251211_073921.jpg)
 
 ### Step 22: Verify Fit
 
@@ -331,15 +331,15 @@ Before closing, verify:
 - Button can be pressed
 - No shorts between components
 
-![Completed Assembly Views](../images/20251211_070914.jpg)
+![Completed Assembly Views](..//Images/20251211_070914.jpg)
 
-![Final Check](../images/20251211_070938.jpg)
+![Final Check](..//Images/20251211_070938.jpg)
 
 ### Step 23: Install the Battery
 
 Place the battery on top of the electronics stack, with wires routed neatly to avoid pinching.
 
-![Battery Installed in Case](../images/20251211_073939.jpg)
+![Battery Installed in Case](..//Images/20251211_073939.jpg)
 
 ### Step 24: Close the Case
 
@@ -350,9 +350,9 @@ Snap the lid onto the case. The Miro case lid features:
 - **Button access hole** for reset functionality
 - **USB-C cutout** for charging access
 
-![Completed Tracker - Lid with Branding](../images/20251211_074007.jpg)
+![Completed Tracker - Lid with Branding](..//Images/20251211_074007.jpg)
 
-![Completed Tracker - Showing USB Port and Button Access](../images/20251211_074017.jpg)
+![Completed Tracker - Showing USB Port and Button Access](..//Images/20251211_074017.jpg)
 
 **Congratulations!** Your Miro case Smol Stacked SlimeVR tracker is now fully assembled!
 
