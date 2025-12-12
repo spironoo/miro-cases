@@ -11,31 +11,31 @@ This guide walks you through preparing your SuperMini NRF52840 board for use in 
 Before you begin, make sure you have:
 
 **Electronics:**
-- SuperMini NRF52840 development board
-- ICM-45686 IMU breakout board
-- SMD Button
-- 3.7V LiPo battery (120mAh 401230 or similar)
-- Header pins (7-pin strip)
+- [SuperMini NRF52840 development board](https://docs.zephyrproject.org/latest/boards/others/promicro_nrf52840/doc/index.html). You can find these for cheap on AliExpress.
+- ICM-45686 IMU breakout board. I highly suggest the [SlimeVR Store](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)
+- SMD Button, once again can be found for very little cost on AliExpress
+- 3.7V LiPo battery (120mAh 401230 Recommended)
+- Header pins (7-pin strip or more)
 
 **Tools:**
 - Soldering iron
 - Solder
 - Fine-tip tweezers
-- Soldering jig for IMU pins (optional but recommended)
-- Helping hands or PCB holder
+- [Soldering jig for IMU pins](../STL/Solder%20Jig%20Cube.stl)
+- Helping hands or PCB holder (Optional but recommended)
 - USB-C data cable
 
 **3D Printed Parts:**
-- Miro case (from the STL files in this repository)
+- Miro case (from the [STL folder in this repository](../STL/))
 
 **Workspace:**
 - Clean, flat work surface
 - Good lighting
-- Ventilation for soldering fumes
+- Ventilation for soldering fumes (more important than you think!)
 
 ---
 
-## Part 1: Board Overview
+## Part 0: Board Overview
 
 ### The SuperMini NRF52840
 
@@ -45,7 +45,6 @@ The SuperMini NRF52840 is a compact development board featuring Nordic's nRF5284
 
 - **nRF52840 chip** — The large QFN package in the center
 - **USB-C port** — For charging, programming, and data
-- **Crystal oscillator** — Small gold component near the chip
 - **Status LED** — Small red/white component on the edge
 - **Pin headers** — Gold-plated holes along both edges (labeled 006, 017, 020, etc.)
 - **Reset button pads** — Located near the USB port
@@ -54,21 +53,21 @@ The SuperMini NRF52840 is a compact development board featuring Nordic's nRF5284
 
 ---
 
-## Part 2: Soldering the Reset Button
+## Part 1: Soldering the Button
 
-### Tack One Corner
+We'll start with the button so that the IMU may be placed over it later. Starting here also allows us to ensure the SuperMini is functioning in Step 2 before we move on to other steps.
 
-With the button positioned correctly, apply a small amount of solder to one pad first. This "tacks" the button in place and allows you to adjust alignment if needed.
+### Tack Your First Pad
+
+Before placing the button onto the board, first tack the pad with a good amount of solder.
 
 ![Tacking First Pad](../Images/20251211_081730.jpg)
 
-### Complete the Solder Joints
-
-Use tweezers to position the button correctly; you can use the USB-C port to help guide your tweezers.
+Use tweezers to position the button correctly; you can use the slot for the USB-C port to help guide your tweezers.
 
 ![Position the Button](../Images/20251211_063356.jpg)
 
-Once aligned, solder the remaining pads to secure the button completely.
+Once aligned, solder the remaining pad to secure the button in place. It's okay if it sticks up like in the image, a secure joint will hold it in place just fine.
 
 ![Completed Button Solder](../Images/20251211_063513.jpg)
 
@@ -78,9 +77,11 @@ Push down the button so that the second pin aligns with the pad. Then, solder th
 
 ![Other Button Side](../Images/20251211_063532.jpg)
 
+It's at this point I like to test the SuperMini by flashing it and checking if everything's working.
+
 ---
 
-## Part 3: Testing and Entering DFU Mode
+## Part 2: Testing and Entering DFU Mode
 
 ### Connect USB-C Cable
 
@@ -105,11 +106,11 @@ When successful, you'll see:
 
 ### Flashing the Firmware
 
-## For information on flashing the firmware, please refer to the information found in the SlimeVR Documentation [Here](https://docs.slimevr.dev/smol-slimes/firmware/index.html)
+## For information on flashing the firmware, please refer to the information found in the SlimeVR Documentation [Here.](https://docs.slimevr.dev/smol-slimes/firmware/index.html)
 
 ### Verify Firmware
 
-After flashing the firmware, connect to the serial terminal to verify the tracker is working. I recommend Spacehuhn's web terminal implementation found [Here](https://terminal.spacehuhn.com/).
+After flashing the firmware, connect to the serial terminal to verify the tracker is working. I recommend Spacehuhn's web terminal implementation found [Here.](https://terminal.spacehuhn.com/)
 
 You should see the SlimeVR firmware information and available commands:
 
@@ -129,22 +130,23 @@ Press the reset button to verify it's working correctly. You should see button p
 
 - Try different timing on the double-tap
 - Ensure good contact when shorting RST to GND
-- Check that your USB cable supports data (not just charging)
 
 ### Button Not Working
 
 - Check solder joints for cold joints or bridges
-- Verify button orientation
-- Test continuity with a multimeter
+- Test continuity with a multimeter if you have one
 
 ### USB Not Recognized
 
 - Try a different USB port or cable
 - Check for shorts around the USB connector
+- Check that your USB cable supports data (not just charging)
+
+Once you've flashed the firmware onto your SuperMini, you're ready to start work on the IMU.
 
 ---
 
-## Part 4: Preparing the IMU
+## Part 3: Preparing the IMU
 
 Now that your SuperMini is flashed and ready, it's time to prepare the IMU for soldering.
 
@@ -152,9 +154,9 @@ Now that your SuperMini is flashed and ready, it's time to prepare the IMU for s
 
 You'll need:
 
-- ICM-45686 IMU breakout board
-- Header pins
-- My modified [Bris Ibis](https://github.com/brisfknibis/ibis-trackers) Solder Cube, found [Here](../STL/Modified%20Solder%20Cube.stl)
+- ICM-45686 IMU breakout board, I'm using the boards from [The SlimeVR store.](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)
+- Some amount of Header pins
+- A modified [Bris Ibis](https://github.com/brisfknibis/ibis-trackers) Solder Jig/Cube, found [Here.](../STL/Solder%20Jig%20Cube.stl)
 
 ![Soldering Jig Empty](../Images/20251211_064836.jpg)
 
@@ -164,7 +166,7 @@ The soldering jig holds the header pins at the correct height and alignment whil
 
 ![IMU Jig with Pins](../Images/20251211_064826.jpg)
 
-### lace IMU on Pins
+### Place IMU on Pins
 
 Carefully place the IMU board onto the header pins, ensuring all pins go through the corresponding holes.
 
@@ -172,7 +174,9 @@ Carefully place the IMU board onto the header pins, ensuring all pins go through
 
 ### Solder IMU Pins
 
-Solder each pin to the IMU board. Work carefully to avoid bridges between adjacent pins.
+Solder each pin to the IMU board. Work carefully to avoid bridges between adjacent pins. Heat the pad before applying solder, and ensure that solder has flowed through the pad to the pin. If you've done it correctly, solder should level evenly and cover the entire pad.
+
+![IMU With Soldered Pins](../Images/20251211_065200.jpg)
 
 ### Remove from Jig
 
@@ -180,25 +184,26 @@ Once all pins are soldered, carefully remove the IMU from the jig using your cli
 
 ![IMU in Jig - Soldered](../Images/20251211_065316.jpg)
 
-### Kapton Tape
+### Cover the rear with Kapton Tape
 
-Place Kapton Tape onto the rear of the board to prevent shorts. Optional, but highly recommended.
+Place Kapton Tape onto the rear of the board to prevent shorts. Optional, but in this configuration, highly recommended.
+
 ![Kapton Tape Placed on IMU](../Images/20251211_065454.jpg)
 
 ---
 
-## Part 5: Stacking the IMU onto SuperMini
+## Part 4: Stacking the IMU onto SuperMini
 
 ### Prepare for Stacking
 
-Position the IMU above the SuperMini board. The pins from the IMU will go through specific holes on the SuperMini to create the "stacked" configuration.
+Position the IMU above the SuperMini board. The pins from the IMU will go through pinholes on the SuperMini to create the "stacked" configuration. If your IMU is at an off-angle to the SuperMini, don't worry! The case has tolerances to account for that.
 
 ![Completed IMU with Pins](../Images/20251211_065601.jpg)
 ![Stacking Preparation](../Images/20251211_065658.jpg)
 
 ### Solder Stack Connection
 
-Solder all the exposed pins, ensuring clean joints.
+Solder all the exposed pins, ensuring clean joints. If you're not sure what a clean joint looks like, you can follow [this guide.](https://learn.adafruit.com/adafruit-guide-excellent-soldering/common-problems)
 
 ![Stack Soldered](../Images/20251211_065811.jpg)
 
@@ -218,13 +223,15 @@ Then, use a tool of your choice to push the pin into place, connecting to the IN
 
 ![INT Pin Pushed into Place](../Images/20251211_070808.jpg)
 
+Solder the pin to the IMU, then the SuperMini. Doing it this way ensure that the pin stays in place for soldering.
+
 ---
 
-## Part 6: Preparing the Battery
+## Part 5: Preparing the Battery
 
 ### Battery Selection
 
-For the Miro case, use a small LiPo battery. The example shows a 120mAh 3.7V battery (401230 size).
+For the Miro case, use a small LiPo battery. The example shows a 120mAh 3.7V battery (401230 size highly recommended).
 
 ![Battery Overview](../Images/20251211_071044.jpg)
 
@@ -243,7 +250,7 @@ After this is done, you're all ready to insert the board inside the case.
 
 ---
 
-## Part 7: Final Assembly into Miro Case
+## Part 6: Final Assembly into Miro Case
 
 ![Miro Case Overview](../Images/20251211_073658.jpg)
 
@@ -294,7 +301,7 @@ Snap the lid onto the case. That's it!
 
 ## Next Steps
 
-Your Smol Stacked SlimeVR tracker is now assembled! Next s:
+Your Smol Stacked SlimeVR tracker is now assembled! Next:
 
 1. **Pair with receiver** — [Connect your tracker to your SlimeVR receiver/dongle](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html)
 2. **Calibrate** — [Follow the SlimeVR calibration process](https://docs.slimevr.dev/quick-setup.html)
