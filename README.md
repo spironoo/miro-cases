@@ -59,7 +59,7 @@ These cases are designed for Smol Stacked SlimeVR builds, which typically includ
 4. Secure with the lid/cover
 5. Attach straps as needed
 
-[For an in-depth guide on how to build your own Miro trackers, follow the tutorial here.](./Documentation/soldering_Tutorial.md)
+[For an in-depth guide on how to build your own Miro trackers, follow the tutorial here.](./Documentation/soldering_tutorial.md)
 
 ## Related Resources
 
